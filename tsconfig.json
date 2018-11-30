@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2015", "es6", "dom"],
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./lib",
+    "strict": true
+  },
+  "include": ["src/**/*.ts", "node_modules/**/*.ts", "typings/**/*.ts"],
+  "exclude": ["__tests__", "build", "**/*.test.ts", "temp"]
+}
